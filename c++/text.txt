@@ -1,0 +1,95 @@
+pop-procedure oriented
+inheritance absent
+polymorphism absent
+
+oop-object oriented
+c++
+#include<iostream.h>
+
+
+
+class
+object
+constructer
+destructer
+member fuctions/methods
+data member
+non member data
+non member functions friend functions
+operator overloading functions
+function overloading
+generic functions
+function templates
+<< insertion operator
+>> extraction operator
+alias
+
+
+static polymorphism-static polymorphism
+dynamic polymorphism-run time polymorphism
+
+static
+#function overloading
+#operator overloading
+
+#operator overloading
+here + adds two complex numbers
+c3,c1,c2 are complex types
+by defining the data structures
+thus + is polymorphic
+
+#function overloading
+c++ allows two or more functions  with same name
+should:
+differ in number of parameters
+differ in types of parameters
+area of circle,triangle and rectangle using function overloading concept
+gnu compiler collection (gcc)
+return type doesn't contribute to signature of the function
+candidate function
+viable function
+linker links the call at compile time
+loader loads the function
+complex data type
+private and public visibility modes
+by default private
+in struct by default members are public
+in class by default private
+scope resolution operator::
+outside the class body
+{
+  this->real=c1.real+c2.real
+}
+constructors and destructures
+1)default constructor
+2)parameterized constructor
+abstract class cannot create objects
+concrete class-triangle
+pointer is of type base class and address is of type child class
+its a perfect mismatch
+child overrides parent
+operator overloading
+*this points to the calling object
+function and operator overloading is static
+overriding id dynamic
+
+
+22/01
+constructor initializes datamemembers for a class and a resourse allocator
+heap dynamic memory
+wastage of memory happens
+dynamic memory management:
+uses only when req then free the memory
+new operator allocates the address of the first element of char array.
+delete-realeases the memory
+static variable commnon to all.
+pointer takes 4 bytes
+dynamically allocated array is in heap memory
+memory leakage:loss of deallocated memory(not using release).
+
+destructor
+~classname()
+delete-memory gets deallocated but not delete.(os release block on this area).
+delete [] name;
+name is the object
+friend function accesses private data of a class.(non members)
